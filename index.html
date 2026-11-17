@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台北 Taipei｜城市旅遊指南：景點、美食、交通與實用資訊</title>
+<meta name="description" content="繁體中文台北旅遊指南：台北 101、故宮博物院、龍山寺、象山、北投溫泉等必訪景點，夜市小吃、牛肉麵、小籠包等美食推薦，以及捷運、悠遊卡、機場捷運等交通資訊。">
+<meta name="theme-color" content="#0c1220">
+<meta property="og:type" content="website">
+<meta property="og:title" content="台北 Taipei｜城市旅遊指南">
+<meta property="og:description" content="山與河交會的城市：八個必訪景點、八種必吃滋味，以及第一次來台北就該知道的交通與實用資訊。">
+<meta property="og:locale" content="zh_TW">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c1220'/%3E%3Cpath d='M16 5l4 5v3l-4 4-4-4V10z' fill='%23d2653f'/%3E%3Cpath d='M16 18v9' stroke='%23c8a05a' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">
+      <span class="dot" aria-hidden="true"></span>
+      台北 <small>Taipei</small>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="開啟導覽選單" aria-expanded="false" aria-controls="navLinks">
+      <span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sights">必訪景點</a></li>
+      <li><a href="#food">美食推薦</a></li>
+      <li><a href="#transport">交通資訊</a></li>
+      <li><a href="#info">實用資訊</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================================================ 主視覺 -->
+  <section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div>
+        <span class="eyebrow"><b>台灣</b> Taiwan · 城市指南</span>
+        <h1>台北<span class="en">Taipei</span></h1>
+        <p class="lede">
+          一座被群山環抱、被河流穿過的城市。盆地裡是密集的夜市、廟宇與玻璃帷幕，
+          半小時車程外就是溫泉與茶園。台北不大，捷運把整座城市收在手掌心裡，
+          你可以早上爬山看雲海，中午在老市場吃一碗麵，傍晚再回到 101 腳下看燈亮起來。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#sights">開始探索景點</a>
+          <a class="btn btn-ghost" href="#transport">看懂交通</a>
+        </div>
+        <ul class="hero-facts">
+          <li><strong>2.5 百萬</strong>設籍人口</li>
+          <li><strong>5 條</strong>捷運主要路線</li>
+          <li><strong>508 公尺</strong>台北 101 高度</li>
+          <li><strong>23–30°C</strong>夏季均溫區間</li>
+        </ul>
+      </div>
+
+      <div class="tower-wrap" aria-hidden="true">
+        <svg class="tower" viewBox="0 0 200 420" role="img" aria-label="台北 101 線條插畫">
+          <line class="spire" x1="100" y1="6" x2="100" y2="58"/>
+          <rect class="tier" x="86" y="58" width="28" height="22" rx="3"/>
+          <rect class="tier-alt" x="74" y="82" width="52" height="26" rx="4"/>
+          <rect class="tier" x="68" y="110" width="64" height="26" rx="4"/>
+          <rect class="tier-alt" x="68" y="138" width="64" height="26" rx="4"/>
+          <rect class="tier" x="63" y="166" width="74" height="26" rx="4"/>
+          <rect class="tier-alt" x="63" y="194" width="74" height="26" rx="4"/>
+          <rect class="tier" x="59" y="222" width="82" height="26" rx="4"/>
+          <rect class="tier-alt" x="59" y="250" width="82" height="26" rx="4"/>
+          <rect class="tier" x="55" y="278" width="90" height="26" rx="4"/>
+          <rect class="tier-alt" x="55" y="306" width="90" height="26" rx="4"/>
+          <rect class="tier" x="51" y="334" width="98" height="26" rx="4"/>
+          <rect class="tier-alt" x="44" y="362" width="112" height="24" rx="4"/>
+          <line class="win" x1="76" y1="86" x2="76" y2="104"/>
+          <line class="win" x1="100" y1="86" x2="100" y2="104"/>
+          <line class="win" x1="124" y1="86" x2="124" y2="104"/>
+          <line class="win" x1="70" y1="142" x2="70" y2="160"/>
+          <line class="win" x1="100" y1="142" x2="100" y2="160"/>
+          <line class="win" x1="130" y1="142" x2="130" y2="160"/>
+          <line class="win" x1="65" y1="198" x2="65" y2="216"/>
+          <line class="win" x1="100" y1="198" x2="100" y2="216"/>
+          <line class="win" x1="135" y1="198" x2="135" y2="216"/>
+          <line class="win" x1="61" y1="254" x2="61" y2="272"/>
+          <line class="win" x1="100" y1="254" x2="100" y2="272"/>
+          <line class="win" x1="139" y1="254" x2="139" y2="272"/>
+          <line x1="30" y1="386" x2="170" y2="386" stroke="rgba(255,255,255,0.28)" stroke-width="1.4"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ 景點 -->
+  <section class="section" id="sights">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-kicker">Sights · 景點</span>
+        <h2>八個地方，走完就懂台北的形狀</h2>
+        <p>
+          從摩天大樓到百年廟宇，台北的景點彼此距離很近，一天排兩到三個剛剛好。
+          以下每一處都能搭捷運或公車抵達，多半步行範圍內還有市場或老街可以順路逛。
+        </p>
+      </div>
+
+      <div class="grid-sights">
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">🏙️</div>
+            <h3>台北 101<span>Taipei 101</span></h3>
+          </div>
+          <p>
+            曾經的世界第一高樓，508 公尺的竹節造型是台北最明顯的天際線。
+            89 樓觀景台能俯瞰整個台北盆地，天況好時連遠處的山稜都看得清楚。
+            樓下是精品商場與美食街，跨年夜的煙火更是全城焦點。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運淡水信義線 · 台北 101／世貿站</span>
+            <span class="chip warm">建議 1.5–2 小時</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">🏛️</div>
+            <h3>國立故宮博物院<span>National Palace Museum</span></h3>
+          </div>
+          <p>
+            收藏近七十萬件中華文物，從青銅器、書畫到琺瑯瓷器，被稱為世界四大博物館之一。
+            鎮院之寶如翠玉白菜、肉形石輪流展出，館方每季會更換陳列，值得先查當期展件。
+            館舍依山而建，從市區搭公車約二十分鐘可達。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運士林站轉乘公車</span>
+            <span class="chip warm">建議 2–3 小時</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">🕊️</div>
+            <h3>中正紀念堂<span>Chiang Kai-shek Memorial Hall</span></h3>
+          </div>
+          <p>
+            藍頂白牆的巨大建築，與前方的自由廣場、兩側的國家戲劇院與音樂廳構成一片開闊園區。
+            清晨是附近居民打太極、練舞的場所，傍晚則常有免費的戶外演出。
+            建築比例與對稱感很適合拍照，也是理解台灣近代政治史的一站。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運松山新店線 · 中正紀念堂站</span>
+            <span class="chip warm">免費參觀</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">⛩️</div>
+            <h3>艋舺龍山寺<span>Longshan Temple</span></h3>
+          </div>
+          <p>
+            建於 1738 年，是台北最古老、香火最盛的寺廟之一，主祀觀世音菩薩。
+            屋脊上的剪黏、龍柱與木雕都值得細看，廟內終日有誦經聲與擲筊的聲響。
+            門外就是捷運站，對面剝皮寮老街可以一起走。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運板南線 · 龍山寺站</span>
+            <span class="chip warm">開放至夜間</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">⛰️</div>
+            <h3>象山步道<span>Elephant Mountain Trail</span></h3>
+          </div>
+          <p>
+            看台北 101 最近、最經典的角度。從登山口走約十五分鐘的石階就能抵達六巨石觀景台，
+            沿途階梯較陡，建議帶水與手電筒。黃昏上山最好：先看日落，再等城市燈火一盞盞亮起。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運淡水信義線 · 象山站</span>
+            <span class="chip warm">來回約 1 小時</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">♨️</div>
+            <h3>北投溫泉<span>Beitou Hot Springs</span></h3>
+          </div>
+          <p>
+            日治時期就開發的溫泉區，硫磺氣味一走近就聞得到。
+            新北投站周邊有溫泉博物館、地熱谷與圖書館，可以泡大眾湯，也能訂湯屋或溫泉旅館住宿。
+            距離捷運站極近，是市區內最容易安排的一趟泡湯行程。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運淡水信義線 · 新北投站</span>
+            <span class="chip warm">建議半天</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">🏮</div>
+            <h3>迪化街<span>Dihua Street</span></h3>
+          </div>
+          <p>
+            大稻埕最核心的老街，十九世紀以來就是南北貨、中藥與布匹的集散地。
+            巴洛克式街屋立面保存完整，老屋近年陸續改裝成選物店、咖啡館與茶館。
+            過年前的年貨大街是全台北最熱鬧的一段時間。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運松山新店線 · 北門站步行約 8 分鐘</span>
+            <span class="chip warm">午後最熱鬧</span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-top">
+            <div class="card-emoji">🌳</div>
+            <h3>大安森林公園<span>Daan Forest Park</span></h3>
+          </div>
+          <p>
+            市中心近二十六公頃的綠地，被稱為台北的「都市之肺」。
+            園內有生態池、竹林步道與露天音樂台，常見松鼠、夜鷺與白鷺鷥，春天還會有花季。
+            周圍巷弄裡藏著大量獨立咖啡店與書店，逛完正好續攤。
+          </p>
+          <div class="card-meta">
+            <span class="chip">捷運淡水信義線 · 大安森林公園站</span>
+            <span class="chip warm">免費開放</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ 美食 -->
+  <section class="section section-dark" id="food">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-kicker">Food · 美食</span>
+        <h2>台北的滋味，多半藏在騎樓與市場裡</h2>
+        <p>
+          台北小吃價格親切、上菜極快，一頓飯常常不用兩百元。
+          夜市約傍晚五、六點開始擺攤，週末人潮最多；名店排隊是常態，但翻桌也快。
+        </p>
+      </div>
+
+      <div class="grid-food">
+
+        <article class="food reveal">
+          <div class="food-icon">🍢</div>
+          <h3>夜市小吃</h3>
+          <p>
+            士林、饒河街、寧夏與師大夜市各有擁護者。蚵仔煎、大腸包小腸、鹽酥雞、
+            臭豆腐與地瓜球幾乎是共同班底，邊走邊吃才是標準吃法。
+          </p>
+          <span class="tag">推薦 · 饒河街夜市、寧夏夜市</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🍜</div>
+          <h3>牛肉麵</h3>
+          <p>
+            台北的國民麵食，紅燒與清燉兩派：前者醬色濃重、帶豆瓣香，後者湯清味醇。
+            肉塊多為腱子或牛腩，麵條可選寬細，幾乎每條街都有一家老店。
+          </p>
+          <span class="tag">推薦 · 永康牛肉麵、林東芳</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🥟</div>
+          <h3>小籠包</h3>
+          <p>
+            薄皮包著湯汁與豬肉餡，夾起時要輕輕提、先咬小口吸湯。
+            鼎泰豐是最知名的選擇，但街邊老店與市場裡的版本同樣好吃，價格更便宜。
+          </p>
+          <span class="tag">推薦 · 鼎泰豐信義本店</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🧋</div>
+          <h3>珍珠奶茶</h3>
+          <p>
+            手搖飲的發源地之一，從泡沫紅茶店一路演變成全球現象。
+            除了經典的黑糖珍珠鮮奶，也常有冬瓜檸檬、芋頭鮮奶等台灣限定口味，甜度冰量都能調整。
+          </p>
+          <span class="tag">推薦 · 春水堂、五十嵐</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🍚</div>
+          <h3>滷肉飯</h3>
+          <p>
+            切丁的帶皮豬肉用醬油、紅蔥頭久滷，澆在熱白飯上，油亮鹹香。
+            常配一碗筍絲或滷蛋，是台北人最日常的一餐，也是深夜食堂的定番。
+          </p>
+          <span class="tag">推薦 · 鬍鬚張、華西街老店</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🥪</div>
+          <h3>刈包</h3>
+          <p>
+            又叫「虎咬豬」，割開的蒸麵皮夾進滷三層肉、酸菜、花生粉與香菜。
+            鹹甜交錯、肥瘦相間，是尾牙與宵夜時段最受歡迎的台式漢堡。
+          </p>
+          <span class="tag">推薦 · 公館、南門市場周邊</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🦪</div>
+          <h3>蚵仔煎</h3>
+          <p>
+            鮮蚵、雞蛋與小白菜裹上地瓜粉漿煎成，起鍋前淋上甜辣醬。
+            邊緣微焦、中心軟糯，是夜市裡辨識度最高的一盤，通常現點現煎。
+          </p>
+          <span class="tag">推薦 · 各大夜市攤位</span>
+        </article>
+
+        <article class="food reveal">
+          <div class="food-icon">🍧</div>
+          <h3>芒果冰</h3>
+          <p>
+            夏天限定的消暑主角：剉冰鋪上新鮮愛文芒果、煉乳與芒果醬，
+            份量通常大得需要兩人分食。冬季則換成草莓或芋頭冰接力。
+          </p>
+          <span class="tag">推薦 · 永康街冰店</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ 交通 -->
+  <section class="section section-alt" id="transport">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-kicker">Transport · 交通</span>
+        <h2>一張悠遊卡，就能走完整座城市</h2>
+        <p>
+          台北的大眾運輸密度高、班次密，多數景點不需要開車。
+          捷運與公車可用同一張卡轉乘，市區移動時間多半在十五到三十分鐘之間。
+        </p>
+      </div>
+
+      <div class="grid-transport">
+
+        <article class="transport reveal">
+          <div class="transport-head">
+            <div class="transport-badge">🚇</div>
+            <h3>捷運<em>MRT</em></h3>
+          </div>
+          <p>
+            淡水信義線、板南線、松山新店線、中和新蘆線與文湖線構成骨幹，站名與路線都有中英雙語標示。
+            尖峰時段約兩到三分鐘一班，車廂內禁止飲食，月台門與排隊動線都標示清楚。
+          </p>
+          <div class="fare">
+            <span>單程 <b>20–65 元</b></span>
+            <span>營運約 <b>06:00–24:00</b></span>
+          </div>
+        </article>
+
+        <article class="transport reveal">
+          <div class="transport-head">
+            <div class="transport-badge">🚌</div>
+            <h3>公車<em>City Bus</em></h3>
+          </div>
+          <p>
+            路線密集，是捷運到不了的巷弄與山區主要依靠（例如上陽明山、故宮）。
+            上車或下車刷卡依路線不同，車上會有跑馬燈與語音播報站名，也可以用 App 查即時到站時間。
+          </p>
+          <div class="fare">
+            <span>一段票 <b>15 元</b></span>
+            <span>可與捷運轉乘優惠</span>
+          </div>
+        </article>
+
+        <article class="transport reveal">
+          <div class="transport-head">
+            <div class="transport-badge">✈️</div>
+            <h3>機場捷運<em>Taoyuan Airport MRT</em></h3>
+          </div>
+          <p>
+            從桃園機場直達台北車站，分直達車與普通車兩種：直達車約三十五分至四十分鐘，
+            普通車沿途停靠較多站。台北車站可辦理市區預辦登機與行李託運，回程當天很方便。
+          </p>
+          <div class="fare">
+            <span>台北車站–機場 <b>約 150–160 元</b></span>
+            <span>班距 <b>約 7–15 分鐘</b></span>
+          </div>
+        </article>
+
+        <article class="transport reveal">
+          <div class="transport-head">
+            <div class="transport-badge">💳</div>
+            <h3>悠遊卡<em>EasyCard</em></h3>
+          </div>
+          <p>
+            捷運、公車、便利商店、部分計程車與 YouBike 都能用，是台北最通用的支付工具。
+            各捷運站服務台與便利商店都可購買與加值，離境前也能在指定地點辦理退卡退費。
+          </p>
+          <div class="fare">
+            <span>空卡 <b>100 元</b></span>
+            <span>建議儲值 <b>300–500 元</b></span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ 實用 -->
+  <section class="section section-dark" id="info">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <span class="section-kicker">Essentials · 實用資訊</span>
+        <h2>出發前值得先知道的事</h2>
+        <p>
+          台北四季分明、雨季明確，颱風多在夏秋之間。
+          以下幾件事先記著，落地後會省下不少麻煩。
+        </p>
+      </div>
+
+      <div class="grid-info">
+
+        <div class="info-item reveal">
+          <h3><span>🌤️</span>最佳旅遊季節</h3>
+          <p>
+            十月至隔年四月最舒服，天氣涼爽少雨，適合爬山與長時間步行。
+            五、六月是梅雨季，七、八月高溫潮濕且為颱風季，行程建議留備案。
+          </p>
+        </div>
+
+        <div class="info-item reveal">
+          <h3><span>🌡️</span>天氣概況</h3>
+          <p>
+            夏季（6–9 月）常見 30°C 以上，濕度高，體感更熱；
+            冬季（12–2 月）約 15–20°C，東北季風帶來綿雨。洋蔥式穿著最實用，雨具務必隨身。
+          </p>
+        </div>
+
+        <div class="info-item reveal">
+          <h3><span>🔌</span>電壓與插座</h3>
+          <p>
+            台灣電壓為 110V、頻率 60Hz，插座為美規 A 型（兩扁腳），部分插座也支援 B 型。
+            來自 220V 地區的旅客需要變壓器，手機與筆電充電器多為寬電壓，僅需轉接頭。
+          </p>
+        </div>
+
+        <div class="info-item reveal">
+          <h3><span>🗣️</span>語言</h3>
+          <p>
+            主要使用繁體中文（國語），捷運與觀光區的標示多有英文。
+            年輕店員與服務業普遍能以簡單英語溝通，寫下漢字或用翻譯 App 也很管用。
+          </p>
+        </div>
+
+        <div class="info-item reveal">
+          <h3><span>💵</span>貨幣與支付</h3>
+          <p>
+            使用新台幣（TWD，NT$），紙鈔為 100、200、500、1000 元。
+            現金在夜市與小店仍是主流，便利商店、百貨與多數餐廳可刷卡或使用行動支付。
+          </p>
+        </div>
+
+        <div class="info-item reveal">
+          <h3><span>🕐</span>時區與其他</h3>
+          <p>
+            台北時間為 UTC+8，全年不實施日光節約時間。
+            自來水不可直接生飲，便利商店與捷運站多有飲水機；室內全面禁菸，垃圾需依分類投放。
+          </p>
+        </div>
+
+      </div>
+
+      <p class="info-note reveal">
+        小提醒：夜市與部分小吃攤只收現金，出發前先確認身上有零錢；
+        熱門餐廳（尤其假日的小籠包名店）常需現場候位，建議避開用餐尖峰或先抽號碼牌。
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <strong>台北 Taipei</strong>
+      <p>
+        一份寫給第一次來台北的人的單頁指南。內容為旅遊介紹用途，
+        票價、營業時間與展覽資訊可能隨時調整，出發前請以官方公告為準。
+      </p>
+    </div>
+    <nav aria-label="頁尾導覽">
+      <a href="#sights">必訪景點</a>
+      <a href="#food">美食推薦</a>
+      <a href="#transport">交通資訊</a>
+      <a href="#info">實用資訊</a>
+      <a href="#top">回到頂部</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var nav = document.getElementById('nav');
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  var anchors = links.querySelectorAll('a');
+
+  function closeMenu() {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+
+  toggle.addEventListener('click', function () {
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  anchors.forEach(function (a) {
+    a.addEventListener('click', closeMenu);
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!links.contains(e.target) && !toggle.contains(e.target)) closeMenu();
+  });
+
+  // 導覽列底色與目前所在區塊
+  var sections = Array.prototype.slice.call(document.querySelectorAll('section[id], main[id]'));
+  function onScroll() {
+    var y = window.scrollY || window.pageYOffset;
+    nav.classList.toggle('scrolled', y > 40);
+
+    var current = '';
+    sections.forEach(function (sec) {
+      if (sec.getBoundingClientRect().top <= 140) current = sec.id;
+    });
+    anchors.forEach(function (a) {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // 進場動畫
+  var items = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in');
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: '0px 0px -8% 0px', threshold: 0.08 }
+    );
+    items.forEach(function (el, i) {
+      el.style.transitionDelay = Math.min(i % 4, 3) * 70 + 'ms';
+      io.observe(el);
+    });
+  } else {
+    items.forEach(function (el) {
+      el.classList.add('is-in');
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
