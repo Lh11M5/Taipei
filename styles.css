@@ -168,7 +168,7 @@ a {
   width: 18px;
   height: 2px;
   border-radius: 2px;
-  background: currentColor;
+  background: var(--accent);
   transition: transform 0.25s ease, opacity 0.2s ease;
 }
 
