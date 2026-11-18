@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lh11m5.github.io/Taipei/sitemap.xml
