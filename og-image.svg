@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#fbf8f3"/>
+  <!-- misty teal mountains -->
+  <path d="M0 470 L140 330 L260 430 L400 300 L520 400 L660 260 L780 390 L900 320 L1040 420 L1200 300 L1200 630 L0 630 Z" fill="#2f7d78" opacity="0.30"/>
+  <path d="M0 520 L160 400 L300 500 L440 380 L600 490 L760 400 L920 500 L1060 420 L1200 500 L1200 630 L0 630 Z" fill="#2f7d78" opacity="0.45"/>
+  <!-- Taipei 101 tower -->
+  <rect x="560" y="150" width="80" height="340" rx="4" fill="#c9613c"/>
+  <g fill="#fbf8f3">
+    <rect x="560" y="180" width="80" height="10"/>
+    <rect x="560" y="215" width="80" height="10"/>
+    <rect x="560" y="250" width="80" height="10"/>
+    <rect x="560" y="285" width="80" height="10"/>
+    <rect x="560" y="320" width="80" height="10"/>
+    <rect x="560" y="355" width="80" height="10"/>
+  </g>
+  <rect x="590" y="110" width="20" height="45" fill="#c9613c"/>
+  <rect x="586" y="490" width="28" height="30" fill="#c9613c" opacity="0.7"/>
+  <!-- red lantern dots -->
+  <circle cx="180" cy="330" r="14" fill="#d2653f"/>
+  <circle cx="180" cy="370" r="14" fill="#d2653f"/>
+  <circle cx="150" cy="350" r="11" fill="#c9613c"/>
+  <circle cx="1020" cy="300" r="13" fill="#d2653f"/>
+  <circle cx="990" cy="340" r="10" fill="#c9613c"/>
+  <!-- soft clouds -->
+  <ellipse cx="300" cy="180" rx="90" ry="26" fill="#e8e0d4" opacity="0.8"/>
+  <ellipse cx="900" cy="160" rx="110" ry="28" fill="#e8e0d4" opacity="0.8"/>
+</svg>
